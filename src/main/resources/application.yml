@@ -1,0 +1,11 @@
+spring:
+  applicaton:
+    name: admin-service
+  cloud:
+    kubernetes:
+      discovery:
+        namespace: carloszamo077-2-dev
+        service-labels:
+          type: actuator
+      client:
+        namespace: carloszamo077-2-dev
